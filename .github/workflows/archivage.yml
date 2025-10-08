@@ -1,0 +1,9 @@
+- name: Archive Java files
+run: zip archive.zip *.java
+- name: Commit and push
+run: |
+git config --global user.name "Fletcher-Prog"
+git config --global user.email "aarab.anas04@gmail.com"
+git add archive.zip
+git commit -m "Archivage des fichiers Java"
+git push
