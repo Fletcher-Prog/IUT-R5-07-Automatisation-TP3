@@ -45,8 +45,8 @@ jobs:
         fi
     - name: Commit et push
       run: |
-        git config --global user.name AlphaSaiiko
-        git config --global user.email antoine.lechasles@etu.univ-lehavre.fr
+        git config --global user.name Fletcher-Prog
+        git config --global user.email aarab.anas04@gmail.com
         git add .
         git commit -m "Mise à jour avec rapport et archive datés"
         git push
